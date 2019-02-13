@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>Connect US</title>
+    <link rel="icon" type="image/png" href="logo.png"/>
+   <!--  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/"> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .col-md-4{
+        border:5px;
+        /*box-shadow: 0.5px 0.5px 1px;*/
+      }
+      .heading{
+            font-size: 2.6rem;
+            font-weight: 300;
+            line-height: 1.2;
+      }
+      #maintitile{
+        background-image: url("globe.png");
+        background-size: 25%;
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+        /*background-color: rgba(0,0,0,0.5);*/
+      }
+      .sub{
+        /*background-color: #343a40;*/
+      }
+      .sub a{
+        color:white;
+        text-decoration: none;
+
+      }
+      strong{
+        font-size: 120%;
+      }
+      #dialog{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 1;
+      }
+      #QA{
+        color:white;
+        position: fixed;
+        right: 31px;
+        bottom: 37px;
+        z-index: 2;
+
+      }
+      .QA:hover{
+        cursor: pointer; 
+      }
+    </style>
+    <script type="text/javascript">
+        var flag = false;
+        function collapse(){
+          if(!flag){
+             var main = document.getElementById("main").style.display = "none";
+             var sub = document.getElementById("sub").style.display = "block";
+             document.getElementById("body").style.background = "#5b6571";
+             flag = true;
+          }
+          else if(flag){
+            var main = document.getElementById("main").style.display = "block";
+             var sub = document.getElementById("sub").style.display = "none";
+             document.getElementById("body").style.background = "white";
+            flag = false;
+          }
+         
+          
+        }
+        function startup(){
+             var main = document.getElementById("main").style.display = "block";
+             var sub = document.getElementById("sub").style.display = "none";
+             //document.getElementById("body").style.background = "#343a40";
+             flag = false;
+        }
+
+    </script>
+    <!-- Custom styles for this template -->
+    <!-- <link href="jumbotron.css" rel="stylesheet"> -->
+  </head>
+  <body id="body" onload="startup()">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" >
+  <a class="navbar-brand" href="index.html">Connect "US"</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+ 
+    </nav>
+
+
+ <div id="sub">
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+     <div style="font-size: 30px;" class="sub container">
+         <a href="index.html" ><i>Home</i></a>
+         <hr>
+         <a href="rights.html" ><i>Immigration Rights</i></a>
+         <hr>
+         <a href="report.html" ><i>Report Discrimination</i></a>
+         <hr>
+         <a href="edu.html" ><i>Culture Differentiation</i></a>
+     </div>
+     <br>
+
+  </div>
+<main role="main" id="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  
+      <br><br>
+      <br>
+      <a href="#" class="QA">
+        <label id="QA">Q&A</label>
+        <img src="box.png" width="60px" id="dialog" style="filter: opacity(.5) drop-shadow(0 0 0 green);">
+      </a>
+     <br>
+  <div class="container">
+      
+      <center>
+        <h1 class="display-4">Culture Differentiation</h1>
+      </center>
+
+      <br>
+      <br>
+      <div class="row" style="margin:auto;">
+         <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">United States</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn the culture of America! <br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+        <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">China</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn the culture of China!<br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+        <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">Japan</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn the culture of Japan!<br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+        <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">Korea</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn the culture of Korea!<br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+        <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">Vietnam</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn more about Vietnam!<br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+        <div class="card text-black bg-light col-6" style="max-width: 18rem;">
+          <div class="card-header">U.K/England</div>
+          <div class="card-body">
+           
+            <p class="card-text">Learn more about U.K/England!<br><br>
+              <a href="#" class="btn btn-primary">More!</a></p>
+          </div>
+        </div>
+
+      </div>
+     
+
+     
+
+  </div>
+
+    
+<br>
+<br><br>
+<br><br>
+<br>
+   <!-- /container -->
+<footer class="container">
+  <p>&copy; MPI U.S History, Connect US 2019-2020</p>
+</footer>
+</main>
+
+

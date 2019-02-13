@@ -1,0 +1,183 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>Connect US</title>
+    <link rel="icon" type="image/png" href="logo.png"/>
+   <!--  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/"> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .col-md-4{
+        border:5px;
+        /*box-shadow: 0.5px 0.5px 1px;*/
+      }
+      .heading{
+            font-size: 2.6rem;
+            font-weight: 300;
+            line-height: 1.2;
+      }
+      #maintitile{
+        background-image: url("globe.png");
+        background-size: 25%;
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+        /*background-color: rgba(0,0,0,0.5);*/
+      }
+      .sub{
+        /*background-color: #343a40;*/
+      }
+      .sub a{
+        color:white;
+        text-decoration: none;
+
+      }
+    </style>
+    <script type="text/javascript">
+        var flag = false;
+        function collapse(){
+          if(!flag){
+             var main = document.getElementById("main").style.display = "none";
+             var sub = document.getElementById("sub").style.display = "block";
+             document.getElementById("body").style.background = "#5b6571";
+             flag = true;
+          }
+          else if(flag){
+            var main = document.getElementById("main").style.display = "block";
+             var sub = document.getElementById("sub").style.display = "none";
+             document.getElementById("body").style.background = "white";
+            flag = false;
+          }
+         
+          
+        }
+        function startup(){
+             var main = document.getElementById("main").style.display = "block";
+             var sub = document.getElementById("sub").style.display = "none";
+             //document.getElementById("body").style.background = "#343a40";
+             flag = false;
+        }
+
+    </script>
+    <!-- Custom styles for this template -->
+    <!-- <link href="jumbotron.css" rel="stylesheet"> -->
+  </head>
+  <body id="body" onload="startup()">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" >
+  <a class="navbar-brand" href="index.html">Connect "US"</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+ 
+    </nav>
+
+
+ <div id="sub">
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+     <div style="font-size: 30px;" class="sub container">
+         <a href="index.html" ><i>Home</i></a>
+         <hr>
+         <a href="rights.html" ><i>Immigration Rights</i></a>
+         <hr>
+         <a href="report.html" ><i>Report Discrimination</i></a>
+         <hr>
+         <a href="edu.html" ><i>Culture Differentiation</i></a>
+     </div>
+     <br>
+
+  </div>
+<main role="main" id="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container" id="maintitile">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     
+      <h5 class="heading" >Connect <strong><i>US</i></strong>, Connects the <strong><i>World</i></strong></h5>
+      
+      <!-- <p>This is a website platform for all Immigrants to gather together and reunion!</p> -->
+      <!-- <p><a class="btn btn-primary btn-sm" href="#" role="button">Learn more &raquo;</a></p> -->
+      <br>
+      
+      <br>
+      <br>
+
+    </div>
+  </div> 
+ 
+  <div class="container">
+    <!-- Example row of columns -->
+      <center>
+        <h1 class="display-3">Features:</h1>
+      </center>
+      <br>
+      <br>
+      <div class="col-12">
+
+        <h2>Immigration Rights</h2>
+        <p>In this page, you will get to know what are the rights for all U.S Immigrants and Non-Immigrants own.</p>
+        <p><a class="btn btn-primary" href="rights.html"  role="button">View details &raquo;</a></p>
+      </div>
+      
+      
+      <div class="col-12">
+        <h2>Report Discrimination</h2>
+        <p>In here you will be able to speak up your voice to us and talk to us about your issues and problems that you are getting discriminated in School or in any other Public/Private enviorment.</p>
+        <p><a class="btn btn-primary" href="report.html"  role="button">View details &raquo;</a></p>
+      </div>
+      
+
+      <div class="col-12">
+        <h2>Culture Education</h2>
+        <p>In here you will be learning about differnt cultures, and the differences between each others. In the new society, we want a community which we can learn and understand about each others.</p>
+        <p><a class="btn btn-primary" href="edu.html"  role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+    
+<br>
+<br>
+   <!-- /container -->
+<footer class="container">
+  <p>&copy; MPI U.S History, Connect US 2019-2020</p>
+</footer>
+</main>
+
+
